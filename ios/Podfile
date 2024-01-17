@@ -46,6 +46,7 @@ target 'RN72' do
   )
 
   target 'RN72Tests' do
+    pod 'TrueSDK'
     inherit! :complete
     # Pods for testing
   end
